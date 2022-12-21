@@ -1,4 +1,4 @@
-fndef SHELL_H
+#ifndef SHELL_H
 #define SHELL_H
 
 #include <stdarg.h>
@@ -58,4 +58,4 @@ struct flags
 	bool interactive;
 } flags;
 
-#endif /* SHELL_H
+#endif
